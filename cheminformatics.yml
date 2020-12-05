@@ -1,0 +1,37 @@
+name: cheminformatics
+
+channels:
+  - conda-forge
+  - defaults
+  - rdkit
+
+dependencies:
+  - python>=3.8
+  - numpy
+  - matplotlib
+  - pandas
+  - joblib
+  - scipy
+  - scikit-learn
+  - pillow
+  - jupyter
+  - nb_conda
+  - xlrd
+  - networkx
+  - openpyxl
+  - seaborn
+# Conda forge
+#  - xgboost
+  - jupyterlab
+  - cookiecutter
+  - molvs
+  - shap
+  - imbalanced-learn
+# RDkit
+  - rdkit
+# Pip
+  - pip
+  - pip:
+    - xgboost
+    - duecredit
+    - hummingbird-ml
